@@ -1,0 +1,39 @@
+# Dependencies & Build Outputs
+**/node_modules/
+**/dist/
+**/dist-ssr/
+**/target/
+*.class
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment & Local Configurations
+.env
+.env.local
+.env.*.local
+*.timestamp-*.mjs
+
+# IDE & OS Files
+.DS_Store
+Thumbs.db
+*.swp
+*.iml
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties

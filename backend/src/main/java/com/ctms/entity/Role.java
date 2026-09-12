@@ -1,0 +1,12 @@
+package com.ctms.entity;
+
+public enum Role {
+    ADMIN,
+    SPONSOR,
+    PRINCIPAL_INVESTIGATOR,
+    SUB_INVESTIGATOR,
+    SITE_COORDINATOR,
+    DATA_MANAGER,
+    REGULATORY_AFFAIRS,
+    PARTICIPANT
+}
